@@ -1,0 +1,50 @@
+.test {
+  border-radius: 10px;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  background-color: white;
+  margin: 10px;
+  padding: 5px;
+  overflow: hidden;
+  color: black;
+}
+.card {
+  height: 23vh;
+  width: 83vw;
+  display: inline-flex;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.test:hover {
+  /* background-color: black;
+      color:white; */
+  transform: scale3d(1.1, 1.1, 1);
+  transition-timing-function: ease-in;
+  transition: 0.28s;
+  box-shadow: 5px 5px 2.5px gray;
+}
+
+.hidden {
+  display: flex;
+  border-top: 1px;
+  border-style: solid;
+  align-content: center;
+}
+.hidden h2 {
+  margin: 0 auto;
+}
+
+.info {
+  padding: 8px 0px;
+  align-content: center;
+  margin: 0px 8px;
+}
+@media only screen and (min-width: 992px) {
+  .card {
+    width: 25vw;
+  }
+  .test {
+    width: 25vw;
+  }
+}
